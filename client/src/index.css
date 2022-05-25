@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+      font-family: Poppins, sans-serif;
+    }
+    p{
+      @apply text-gray font-thin;
+    }
+    h1 {
+      @apply text-purple-dark font-bold text-xl;
+    }
+    h6 {
+    @apply text-lg font-medium;
+    }
+  }
+
+@layer components {
+    .nav-item {
+        @apply flex flex-row gap-[0.4rem] font-[550] items-center hover:cursor-pointer;
+    }
+    .skill-box {
+      @apply border-r border-b border-[#E7E5EB]/50 flex flex-col content-center justify-center gap-2 items-center;
+    }
+    .skill-icon {
+      @apply text-[#6f11f5] text-4xl;
+    }
+}
