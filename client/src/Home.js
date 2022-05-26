@@ -5,8 +5,10 @@ import { FaPlane } from "react-icons/fa";
 
 function Home() {
   return (
-    <div className="bg-gradient-to-r from-[#D5BBFC] to-[#afecff] min-h-screen py-4">
-      <div className="bg-glass w-8/12 h-[5.5rem] rounded-3xl m-auto backdrop-blur-sm pr-4">
+    <div className="bg-gradient-to-r from-[#D5BBFC] to-[#afecff] min-h-screen ">
+      {/* <div className="w-full h-full min-h-screen bg-gradient-to-bl from-[#A4A3EE] via-[#E5D8FF] to-[#EC66DA] opacity-70 z-10"> */}
+      {/* <div className="w-ful h-full min-h-screen bg-gradient-to-tr from-[#af44a1]  to-[#399bd4] pt-4 opacity-60 z-10"> */}
+      <div className="bg-glass w-8/12 h-[5.5rem] rounded-3xl m-auto backdrop-blur-sm pr-4 z-50">
         <div className="flex flex-row h-full items-center justify-end text-purple-dark gap-12 ">
           <div className="nav-item">
             <GoFileSubmodule />
@@ -37,6 +39,8 @@ function Home() {
           <div className="w-full h-full rounded-full bg-gradient-to-tl from-[#A0CCF8] via-[#FF96E0] to-[#F54F6C] opacity-90"></div>
         </div>
       </div>
+      {/* </div> */}
+      {/*  </div> */}
     </div>
   );
 }
