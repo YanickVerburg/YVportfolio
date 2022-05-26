@@ -26,6 +26,17 @@ function Home() {
           </button>
         </div>
       </div>
+      {/* BALL 1 */}
+      <div className="h-52 w-52 rounded-full bg-gradient-to-tr from-[#9E99F8] via-[#1CECFC] to-[#8EF7FE]  ">
+        <div className="w-full h-full rounded-full bg-gradient-to-l from-[#1CECFC] via-[#9E99F8] to-[#9E99F8] opacity-70">
+          <div className="w-full h-full rounded-full bg-gradient-to-t from-[#f1ea1c] via-[#9E99F8] to-[#e61cfc] opacity-40"></div>
+        </div>
+      </div>
+      <div className="h-52 w-52 rounded-full bg-gradient-to-br from-[#9994F9]  via-[#FE9FEB] to-[#FC585C]  ">
+        <div className="w-full h-full rounded-full bg-gradient-to-t from-[#8A8FF5] via-[##FF96E0] to-[#FF8FA0] opacity-90">
+          <div className="w-full h-full rounded-full bg-gradient-to-tl from-[#A0CCF8] via-[#FF96E0] to-[#F54F6C] opacity-90"></div>
+        </div>
+      </div>
     </div>
   );
 }
