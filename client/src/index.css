@@ -13,16 +13,16 @@
       @apply text-purple-dark font-bold text-xl;
     }
     h6 {
-    @apply text-lg font-medium;
+    @apply text-base tracking-wide font-medium group-hover:text-purple;
     }
   }
 
 @layer components {
     .nav-item {
-        @apply flex flex-row gap-[0.4rem] font-[550] items-center hover:cursor-pointer;
+        @apply flex flex-row gap-[0.4rem] font-[550] items-center hover:cursor-pointer z-50;
     }
     .skill-box {
-      @apply border-r border-b border-[#E7E5EB]/50 flex flex-col content-center justify-center gap-2 items-center;
+      @apply flex flex-col content-center justify-center gap-2 items-center;
     }
     .skill-icon {
       @apply text-[#6f11f5] text-4xl;
